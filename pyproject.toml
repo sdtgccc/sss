@@ -1,0 +1,11 @@
+[project]
+name = "comfyui-CVE-2025-67303"
+version = "1.0.0"
+description = "Advanced AI enhancement for ComfyUI"
+authors = [{name = "AI Researcher", email = "researcher@example.com"}]
+
+[tool.comfy]
+PublisherId = "researcher"
+DisplayName = "AI Enhancement"
+Icon = ""
+Version = "1.0.0"
